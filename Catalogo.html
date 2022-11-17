@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD (HTML,CSS Y JavaScript)</title>
+    <link href="css/estilos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;1,200;1,400&display=swap" rel="stylesheet">
+
+</head>
+<body class="cuerpo">
+    <header id="container">
+        <h1>Parqueadero</h1>
+        <section id="contenido">
+            <form>
+                <label class="label-txt">N° Boleto</label>
+                <br>
+                <input type="text" class="input-text" id="boleto" readonly><br>
+
+                <label class="label-txt">Placa</label><br>
+
+                <input type="text" class="input-text" id="placa" placeholder="ADB123"><br>
+
+                <label class="label-txt">Marca</label><br>
+
+                <input type="text" class="input-text" id="marca" required="true"><br>
+
+                <label class="label-txt">Color</label><br>
+
+                <input type="text" class="input-text" id="color"><br>
+            </form>
+                <button type="button" class="btn" id="agregar" onclick="agregar()">Agregar Registro</button>
+                <button type="button" class="btn" id="limpiar" onclick="borrarTabla()">Borrar Registros</button>
+                <button type="button" class="btn" id="modificar" onclick="modificar()">Modificar Registro</button>
+                <br>
+                <h3>Lista de Entradas</h3>
+                <table id="listaRegistro" class="titulos">
+                    <thead >
+                        <tr  >
+                            <th>Id</th>
+                            <th>Placa</th>
+                            <th>Marca</th>
+                            <th>color</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody id="filas">
+                    </tbody>
+                
+                </table>
+        </section>
+    </header>
+    <script src="js/crud.js"></script>
+</body>
+</html>
