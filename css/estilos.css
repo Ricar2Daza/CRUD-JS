@@ -1,5 +1,5 @@
 body{
-    background: white;
+    background: WHITE;
     font-family: 'Lucida Sans';
     font-size: 1.2em;
 }
@@ -7,7 +7,7 @@ body{
     font-family: 'Source Serif Pro', serif;
 }
 .cuerpo{
-    background: #ECECEC;
+    background: lightblue;
 }
 #container h1{
     text-align: center;
@@ -18,14 +18,14 @@ body{
 
 }
 form{
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 .input-text{
     height: 25px;
     width: 90%;
     margin: 5px;
-    background: #FFFBE9;
-    color: #CEAB93;
+    background:white;
+    color: black;
     font-size: 16px;
     border: none;
     border-bottom: 1px solid;
@@ -41,21 +41,21 @@ img{
     width: 15px;
 }
 h1{
-    color: #AD8B73;
+    color:rgb(19, 92, 88);
 }
 h3{
-    color: #AD8B73;
+    color:black;
 }
 .label-txt{
-    color: #AD8B73;   
+    color: black;   
 }
 .titulos th{
-    color: #AD8B73;
+    color: black;
     padding-left: 40px;
 }
 .titulos td{
     padding-left: 40px;
-    color: #CEAB93;
+    color: black;
 }
 .btn{
     font-size: 16px;
@@ -64,8 +64,8 @@ h3{
     border-radius: 10px;
     border: none;
     cursor: pointer;
-    background: #E3CAA5;
+    background:cadetblue;
 }
 .btn:hover{
-    background: #AD8B73;
+    background: black;
 }
